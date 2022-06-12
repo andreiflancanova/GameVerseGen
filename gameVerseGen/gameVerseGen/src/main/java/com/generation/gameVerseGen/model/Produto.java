@@ -27,9 +27,10 @@ public class Produto {
 	@Size(min = 5, max = 100)
 	private String produtora;
 	
-	
+	@NotNull
 	private double preco;
 	
+	@NotNull
 	private int quant;
 
 	@ManyToOne
